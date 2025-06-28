@@ -1,8 +1,6 @@
 # Yolo-pose
 
-:::info
-tset
-:::
+這個專案嘗試使用 yolo-pose 模型處理問題
 
 ## Problem 問題
 
