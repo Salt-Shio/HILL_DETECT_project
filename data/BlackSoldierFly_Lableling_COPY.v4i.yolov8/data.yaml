@@ -1,0 +1,17 @@
+train: C:\Users\admin\Desktop\Bio_Project\black\HILL_DETECT_project/data/BlackSoldierFly_Lableling_COPY.v4i.yolov8/train/images
+val: C:\Users\admin\Desktop\Bio_Project\black\HILL_DETECT_project/data/BlackSoldierFly_Lableling_COPY.v4i.yolov8/test/images
+test: C:\Users\admin\Desktop\Bio_Project\black\HILL_DETECT_project/data/BlackSoldierFly_Lableling_COPY.v4i.yolov8/test/images
+
+kpt_shape: [4, 3]
+flip_idx: [0, 1, 2, 3]
+
+nc: 1
+names: [BlackSoldierFly]
+
+roboflow:
+  workspace: salt-hiaow
+  project: blacksoldierfly_lableling_copy
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/salt-hiaow/blacksoldierfly_lableling_copy/dataset/4
+
