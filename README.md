@@ -22,13 +22,13 @@
 1. data : 放著訓練資料
 2. roboflow_download : 放著從 roboflow 下載的訓練資料壓縮檔
 3. script
-  * train.py 訓練
-  * predict.py 預測
-  * analyzer.py 分析損失
+   * train.py 訓練
+   * predict.py 預測
+   * analyzer.py 分析損失
 4. utils
-  * dataset_fix_tool.py 用於 dataset_fixer.py
+   * dataset_fix_tool.py 用於 dataset_fixer.py
 5. yolov8m-pose 執行 train.py 後會產生 runs 資料夾，裡面會有訓練的紀錄與結果，可以把這些結果搬來 yolov8m-pose 資料夾
-  * train12 某一次的訓練結果，這個是目前覺得訓練的最好的，所以只保留這個
+   * train12 某一次的訓練結果，這個是目前覺得訓練的最好的，所以只保留這個
 6. dataset_fixer.py 用來調整從 roboflow 下載的 yaml 檔案(因為在 roboflow 有多餘的操作，但是 data 資料夾下的檔案已經處理過了，可以不必再執行)
 
 ## Future 展望
